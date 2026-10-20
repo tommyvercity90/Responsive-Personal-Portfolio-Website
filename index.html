@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of a web developer">
+    <title>My Portfolio | Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Port<span>folio.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="hero section" id="home">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                    <h1>Hi, I'm <span>Aryan</span></h1>
+                    <h2>I'm a Web Developer</h2>
+                    <p class="hero-description">
+                        I build clean, responsive and user-friendly websites
+                        using modern web technologies.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/" target="_blank"
+                           rel="noopener noreferrer">GitHub ↗</a>
+                        <a href="https://www.linkedin.com/" target="_blank"
+                           rel="noopener noreferrer">LinkedIn ↗</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="profile-circle">
+                        <span>👨‍💻</span>
+                    </div>
+                    <div class="floating-card">💻 Code. Create. Innovate.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2 class="section-title">About <span>Me</span></h2>
+
+                <div class="about-content">
+                    <div class="about-mark">{"</>"}</div>
+                    <div>
+                        <h3>Passionate About Building for the Web</h3>
+                        <p>
+                            I'm an aspiring web developer who enjoys turning
+                            ideas into interactive digital experiences.
+                            I love learning new technologies, solving
+                            problems and improving my coding skills.
+                        </p>
+                        <p>
+                            My current focus is front-end development with
+                            HTML, CSS and JavaScript. I'm always looking
+                            for opportunities to learn and build useful
+                            projects.
+                        </p>
+                        <a href="#contact" class="btn">Let's Connect</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section section-alt" id="skills">
+            <div class="container">
+                <p class="eyebrow">WHAT I WORK WITH</p>
+                <h2 class="section-title">My <span>Skills</span></h2>
+                <p class="section-description">
+                    Technologies and tools I use to create websites.
+                </p>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <span class="skill-icon">🌐</span>
+                        <h3>HTML5</h3>
+                        <p>Semantic page structure</p>
+                    </article>
+                    <article class="skill-card">
+                        <span class="skill-icon">🎨</span>
+                        <h3>CSS3</h3>
+                        <p>Styling and responsive layouts</p>
+                    </article>
+                    <article class="skill-card">
+                        <span class="skill-icon">⚡</span>
+                        <h3>JavaScript</h3>
+                        <p>Interactive web experiences</p>
+                    </article>
+                    <article class="skill-card">
+                        <span class="skill-icon">🛠️</span>
+                        <h3>Git & GitHub</h3>
+                        <p>Version control and collaboration</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section" id="projects">
+            <div class="container">
+                <p class="eyebrow">SOME THINGS I'VE BUILT</p>
+                <h2 class="section-title">My <span>Projects</span></h2>
+                <p class="section-description">
+                    A selection of my practice and development projects.
+                </p>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-visual visual-one">✓</div>
+                        <div class="project-info">
+                            <h3>To-Do List App</h3>
+                            <p>
+                                Manage daily tasks with add, complete,
+                                delete and local storage features.
+                            </p>
+                            <div class="tags">
+                                <span>HTML</span><span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="https://github.com/" target="_blank"
+                               rel="noopener noreferrer">View Project ↗</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-visual visual-two">🔐</div>
+                        <div class="project-info">
+                            <h3>Password Generator</h3>
+                            <p>
+                                Generate random passwords with customizable
+                                length and character options.
+                            </p>
+                            <div class="tags">
+                                <span>HTML</span><span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="https://github.com/" target="_blank"
+                               rel="noopener noreferrer">View Project ↗</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-visual visual-three">☁️</div>
+                        <div class="project-info">
+                            <h3>Weather Display</h3>
+                            <p>
+                                Display weather icons and descriptions
+                                based on a selected condition.
+                            </p>
+                            <div class="tags">
+                                <span>HTML</span><span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="https://github.com/" target="_blank"
+                               rel="noopener noreferrer">View Project ↗</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education and Experience -->
+        <section class="section section-alt" id="education">
+            <div class="container">
+                <p class="eyebrow">MY JOURNEY</p>
+                <h2 class="section-title">Education & <span>Experience</span></h2>
+
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <span class="timeline-dot"></span>
+                        <p class="timeline-date">2026</p>
+                        <h3>MCA </h3>
+                        <h4>Amity University</h4>
+                        <p>
+                          
+                        </p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <span class="timeline-dot"></span>
+                        <p class="timeline-date">PRESENT</p>
+                        <h3>Front-End Development</h3>
+                        <h4>Personal Projects & Learning</h4>
+                        <p>
+                            Building projects to strengthen my HTML,
+                            CSS, JavaScript and responsive design skills.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="container">
+                <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+                <h2 class="section-title">Contact <span>Me</span></h2>
+                <p class="section-description">
+                    Have a question or an opportunity? Send me a message.
+                </p>
+
+                <form class="contact-form" id="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name"
+                            placeholder="Enter your name" required>
+                        <small class="error-message" id="name-error"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email"
+                            placeholder="you@example.com" required>
+                        <small class="error-message" id="email-error"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5"
+                            placeholder="Write your message..." required></textarea>
+                        <small class="error-message" id="message-error"></small>
+                    </div>
+
+                    <button type="submit" class="btn">Send Message ↗</button>
+                    <p id="form-status" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="year"></span> Aryan. Made with ❤️ and code.</p>
+            <a href="#home">Back to top ↑</a>
+        </div>
+    </footer>
+
+</body>
+</html>
